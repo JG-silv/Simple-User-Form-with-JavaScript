@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div class="form">
+        <label for="iname">Name:</label>
+        <input type="text" name="name" id="iname" onblur="">
+        <p id="ierronome"></p>
+        <br>
+        <label for="icpf">CPF:</label>
+        <input type="text" name="cpf" id="icpf" onblur="">
+        <p id="ierronome"></p>
+        <br><br>
+        <button onclick="saveUser()">Save</button>
+        <button onclick="totalDisplayed()">Total Length</button>
+    </div>
+    <script>
+        // Declaration of an Array
+        let listPerson = [];
+
+        // Declaration of a Class
+        class Persons {
+            name;
+            cpf;
+            year;
+            date;
+            email;
+            cep;
+        }
+
+        function saveUser() {
+            // Instantiating the person class using the 'new' keyword and its class
+            let person = new Persons();
+
+            // Filling in the object properties
+            person.name = document.getElementById("iname").value;
+            person.cpf = document.getElementById("icpf").value;
+
+            // The dot (.) in JavaScript is used to access object properties or methods
+
+            // Pop-up message
+            alert("Saved successfully!!");
+        }
+
+        function totalDisplayed() {
+            alert("The total length is " + listPerson.length);
+        }
+    </script>
+</body>
+
+</html>
