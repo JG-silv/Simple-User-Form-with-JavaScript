@@ -1,4 +1,4 @@
-# Project 01 — Simple HTML and JavaScript Form
+## Simple HTML and JavaScript Form
 
 ## Description
 A simple **HTML and JavaScript form** for capturing a user's **name** and **CPF**.  
