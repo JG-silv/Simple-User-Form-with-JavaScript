@@ -23,7 +23,6 @@ This project is designed for **front-end beginners** to practice form handling, 
 - Google Fonts (Poppins)
 
 ## Author
-**Gabriel Silva Cruz**
-
-## License
-MIT License
+```bash
+https://github.com/JG-silv
+```
